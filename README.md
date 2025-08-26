@@ -33,11 +33,11 @@ A **Factory Pattern** was used to design the **Reader class**, allowing seamless
 
 #### 🔄 ETL Pipeline Design
 
-- 1. Extract
+- A. Extract
 
 - Data read from CSV, Parquet, and Delta Lake using a Factory Pattern.
 
-- 2. Transform
+- B. Transform
 
 - Applied business transformation logic using:
 
@@ -55,7 +55,7 @@ A **Factory Pattern** was used to design the **Reader class**, allowing seamless
 
 - **Delta Table** operations for incremental data handling
 
-- 3. Load
+- C. Load
 
 - **Data loaded** into two destinations:
 
