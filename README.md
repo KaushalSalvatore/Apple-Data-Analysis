@@ -33,11 +33,11 @@ A **Factory Pattern** was used to design the **Reader class**, allowing seamless
 
 #### 🔄 ETL Pipeline Design
 
-- A. Extract
+A. Extract
 
 - Data read from CSV, Parquet, and Delta Lake using a Factory Pattern.
 
-- B. Transform
+B. Transform
 
 - Applied business transformation logic using:
 
@@ -55,7 +55,7 @@ A **Factory Pattern** was used to design the **Reader class**, allowing seamless
 
 - **Delta Table** operations for incremental data handling
 
-- C. Load
+C. Load
 
 - **Data loaded** into two destinations:
 
@@ -103,6 +103,8 @@ A **Factory Pattern** was used to design the **Reader class**, allowing seamless
 
 
 #### 👉 This project is a hands-on demonstration of data engineering best practices with PySpark & Databricks. It highlights how to design flexible pipelines that scale with multiple sources and destinations while leveraging modern Lakehouse architecture.
+
+![ETL Pipeline](./image/databricks.png)
 
 
 
